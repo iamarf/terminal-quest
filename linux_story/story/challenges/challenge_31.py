@@ -17,7 +17,7 @@ class StepTemplateNano(TerminalNano):
 
 class Step1(StepTemplateNano):
     story = [
-        "Sei arrivato nel negozio di capanni. {{lb:Garda attorno.}}"
+        "Sei arrivato nel negozio di capanni. {{lb:Guarda attorno.}}"
     ]
     start_dir = "~/paese/est/negozio-di-capanni"
     end_dir = "~/paese/est/negozio-di-capanni"

@@ -333,13 +333,15 @@ class MenuScreen(Gtk.Alignment):
         return button
 
     def create_challenge_title(self, number):
-        return "Challenge {}: {}".format(number, challenges[number]["title"])
+        #return "Challenge {}: {}".format(number, challenges[number]["title"])
+        return "Livello {}: {}".format(number, challenges[number]["title"])
 
     def create_challenge_description(self, number):
         return
 
     def create_chapter_title(self, number):
-        return "Chapter {}: {}".format(number, chapters[number]["title"])
+        #return "Chapter {}: {}".format(number, chapters[number]["title"])
+        return "Capitolo {}: {}".format(number, chapters[number]["title"])
 
     def create_chapter_description(self, number):
         return "Dal livello {} al livello {}".format(

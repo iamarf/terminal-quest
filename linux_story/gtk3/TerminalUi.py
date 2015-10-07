@@ -8,7 +8,7 @@
 # Author: Caroline Clark <caroline@kano.me>
 # Terminal Gtk emulator
 
-from gi.repository import Vte, GLib
+from gi.repository import Vte, GLib, Pango
 import os
 
 
@@ -23,7 +23,10 @@ class TerminalUi(Vte.Terminal):
             GLib.SpawnFlags.DO_NOT_REAP_CHILD,
             None,
             None)
-
+        font_desc = Pango.FontDescription()
+        font_desc.set_size(20 * Pango.SCALE) 
+        self.set_font(font_desc)
+        
         # This prevents the user scrolling back through the history
         # self.set_scrollback_lines(0)
 

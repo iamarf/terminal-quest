@@ -27,13 +27,13 @@ class Step1(StepLs):
     story = [
         "{{wb:Sveglia}} : \"Beep beep beep! Beep beep beep!\"",
         "{{wb:Radio}} : {{Bb:\"Buongiorno, questo è il notiziario delle 9.\"",
-        "\"Strane voci di primo mattino a Strada in Chianti. "
-        "Si chiacchera di gente sparita e case danneggiate"
-        " in paese, a breve trasmetteremo nuove notizie.\"",
-        "\"Il sindaco ha indetto una riunione d'emergenza,"
-        " vi riferiremo appena avrà avuto luogo...\"}}\n",
+        "\"Strane voci di primo mattino a Strada in Chianti.\"",
+        "\"Si chiacchera di gente sparita e case danneggiate\"",
+        "\"in paese, a breve trasmetteremo nuove notizie.\"",
+        "\"Il sindaco ha indetto una riunione d'emergenza,\"",
+        "\"vi riferiremo appena avrà avuto luogo...\"}}\n",
         "È l'ora di svegliarsi dormiglione!",
-        "\n{{gb:Primo comando:}} Scrivi {{yb:ls}} e premi {{wb:Invio}} per "
+        "\n{{gb:Primo comando:}} Scrivi {{yb:ls}} e premi {{wb:Invio}} per ",
         "{{lb:guardarti attorno}}.\n"
     ]
     start_dir = "~/casa-mia/camera-mia"

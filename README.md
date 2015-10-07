@@ -12,6 +12,8 @@ The translation is complete. Now, a refinement work will take place, based on fe
 
 In [CodeBook.md](https://github.com/iamarf/terminal-quest/blob/master/CodeBook.md) details about how the translation is done can be found.
 
+Modified version for controlling the font size both in the Storybook and in the Terminal classes.
+
 # How to install it
 
 ## Kano OS
