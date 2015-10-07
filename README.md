@@ -10,9 +10,10 @@ It is an introduction to terminal commands in the style of a text adventure game
 
 The translation is complete. Now, a refinement work will take place, based on feedback of users that will experiment this game in the classroom. 
 
-In [CodeBook.md](https://github.com/iamarf/terminal-quest/blob/master/CodeBook.md) details about how the translation is done can be found.
+Modified version for controlling the font size both in the Storybook and in the TerminalUi classes.
 
-Modified version for controlling the font size both in the Storybook and in the Terminal classes.
+In [CodeBook.md](https://github.com/iamarf/terminal-quest/blob/master/CodeBook.md) details about the translation and iter mods are reported.
+
 
 # How to install it
 

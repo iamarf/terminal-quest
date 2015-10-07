@@ -1,5 +1,12 @@
 # Terminal Quest
 
+Branch for trying the change of font size, both in Storybook and the TerminalUi classes. Changes in 
+
+https://github.com/iamarf/terminal-quest/blob/largefonts/linux_story/gtk3/Storybook.py#L50
+https://github.com/iamarf/terminal-quest/blob/largefonts/linux_story/gtk3/TerminalUi.py#L26-L28
+
+#### Translation
+
 At the beginning of each script, the instruction **\# coding: utf-8** was added in order to treat the Italian accented vovels correctly. All the text printed in the story frame (at the left) and the error messages in the terminal (at the right) have been translated. The italian objects names have been used. This Italian version is localized for kids living in Tuscany. It will be localized appropriately, when presenting the game in other regions. 
 
 These changes have been applied to the following files
