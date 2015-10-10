@@ -25,7 +25,8 @@ class StepTemplateCd(TerminalCd):
 
 class Step1(StepTemplateCd):
     story = [
-        "Diciamo alla mamma di questo fatto del babbo. Scrivi {{yb:cat mamma}}"
+        "Diciamo alla mamma di questo fatto del babbo.",
+        "Scrivi {{yb:cat mamma}}"
     ]
     start_dir = "~/casa-mia/cucina"
     end_dir = "~/casa-mia/cucina"
@@ -42,11 +43,12 @@ class Step1(StepTemplateCd):
 class Step2(StepTemplateCd):
     story = [
         "{{wb:Mamma:}} {{Bb:\"Non l'hai trovato? Questo è strano, "
-        "non va mai via senza avvertirmi prima.\"",
-        "\"Forse è andato a quella riunione col sindaco in paese,"
-        " quella che dicevano alla radio. "
-        "Perché non vai a controllare? Io rimango qui in caso ritorni.\"}}\n",
-        "Andiamo allora in {{bb:paese}}. Per uscire di casa, usa {{yb:cd}} da solo."
+        "non va mai via senza avvertirmi prima. Forse è andato a quella "
+        "riunione col sindaco in paese, "
+        "quella che dicevano alla radio. Perché non vai a controllare? "
+        "Io rimango qui, in caso ritorni.\"}}",
+        "Andiamo allora in {{bb:paese}}. Per uscire di casa,",
+        "usa {{yb:cd}} da solo."
     ]
     start_dir = "~/casa-mia/cucina"
     end_dir = "~"
@@ -64,7 +66,8 @@ class Step2(StepTemplateCd):
 
 class Step3(StepTemplateCd):
     story = [
-        "Sei fuori di casa sulla lunga via centrale del paese, c'è vento.\n"
+        "Sei fuori di casa sulla lunga via centrale del paese, "
+        "c'è vento. "
         "{{lb:Guarda in giro}} di nuovo per vedere dove andare."
     ]
     start_dir = "~"

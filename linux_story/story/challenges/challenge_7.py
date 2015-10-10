@@ -52,10 +52,10 @@ class Step2(StepTemplateCd):
 class Step3(StepTemplateCd):
     story = [
         "{{wb:sindaco:}} {{Bb:\"Calma per favore! I nostri uomini migliori "
-        "stanno indagando sulle sparizioni, e speriamo di avere "
+        "stanno indagando sulle sparizioni. Speriamo di avere "
         "presto delle spiegazioni.\"}}\n",
         "Sta succedendo qualcosa di strano. Meglio controllare.",
-        "Scrivi {{lb:cat}} per controllare cosa dicono le persone."
+        "Usa {{lb:cat}} per controllare cosa dicono le persone."
     ]
     start_dir = "~/paese"
     end_dir = "~/paese"

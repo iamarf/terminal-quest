@@ -27,8 +27,11 @@ class StepTemplateCd(TerminalCd):
 
 class Step1(StepTemplateCd):
     story = [
-        "Questo è molto strano. Ma non ho tempo di pensarci ora - vediamo dov'è la mamma.",
-        "\n{{gb:Nuovo comando}}: con {{lb:cd}} ti puoi muovere da un posto all'altro.",
+        "Questo è molto strano. "
+        "Ma non c'è tempo di pensarci ora, "
+        "vediamo dov'è la mamma.",
+        "\n{{gb:Nuovo comando}}: con {{lb:cd}} ti puoi muovere ",
+        "da un posto all'altro.",
         "\nUsa il comando {{yb:cd ../}} per {{lb:lasciare}} la tua camera.\n"
     ]
     start_dir = "~/casa-mia/camera-mia"
@@ -80,9 +83,9 @@ class Step2(StepTemplateCd):
 class Step3(StepTemplateCd):
     story = [
         "{{pb:Ding. Dong.}}\n",
-        "O questa?  Un campanello?  Un po' strano.",
-        "Guardi verso la porta della {{bb:cucina}}, e senti rumori "
-        "di qualcuno che sta cucinando.",
+        "O questa?  Un campanello?  Un po' strano. "
+        "Guardi verso la porta della {{bb:cucina}}, "
+        "e senti rumori di qualcuno che sta cucinando. "
         "Sembra che qualcuno prepari la colazione!",
         "Per {{lb:andare in cucina}}, usa {{yb:cd cucina/}}"
     ]

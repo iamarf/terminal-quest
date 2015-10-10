@@ -130,7 +130,7 @@ class Step2(StepTemplateCd):
                     self.last_user_input == 'cd ../':
                 hint = (
                     "\n{{gb:Buon lavoro! Ora ripeti l'ultimo comando "
-                    "usando la freccia in sù della tastiera.}}"
+                    "usando la freccia in su della tastiera.}}"
                 )
 
             # Otherwise, give them a hint

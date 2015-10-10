@@ -25,9 +25,10 @@ class StepTemplateCd(TerminalCd):
 
 class Step1(StepTemplateCd):
     story = [
-        "{{wb:Mamma:}} {{Bb:\"Ciao dormigliona, la colazione è quasi pronta. "
-        " Puoi andare a chiamare il babbo?"
-        " Penso che sia in}} {{bb:giardino}}{{Bb:.\"}}\n",
+        "{{wb:Mamma:}} {{Bb:\"Ciao dormiglione, "
+        "la colazione è quasi pronta. "
+        "Puoi andare a chiamare il babbo? "
+        "Penso che sia in}} {{bb:giardino}}{{Bb:.\"}}",
         "Cerca il tuo babbo in {{bb:giardino}}.",
         "Prima bisogna {{lb:uscire}} dalla cucina usando {{yb:cd ../}}\n"
     ]
@@ -47,7 +48,7 @@ class Step1(StepTemplateCd):
 
 class Step2(StepTemplateCd):
     story = [
-        "Rieccoti nell'ingresso.",
+        "Rieccoti nell'ingresso. "
         "Lo vedi dov'è il {{bb:giardino}}? {{lb:Dai un'occhiata intorno}}.\n"
     ]
     start_dir = "~/casa-mia"
@@ -61,9 +62,8 @@ class Step2(StepTemplateCd):
 
 class Step3(StepTemplateCd):
     story = [
-        "Vedi le porte per {{bb:giardino}}, {{bb:cucina}}, "
-        "{{bb:camera-mia}} e {{bb:camera-genitori}}.",
-        "{{lb:Vai}} in {{bb:giardino}}.\n"
+        "Vedi le porte per {{bb:giardino}}, {{bb:cucina}}, {{bb:camera-mia}} "
+        "e {{bb:camera-genitori}}. {{lb:Vai}} in {{bb:giardino}}.\n"
     ]
     start_dir = "~/casa-mia"
     end_dir = "~/casa-mia/giardino"
@@ -97,10 +97,10 @@ class Step4(StepTemplateCd):
 
 class Step5(StepTemplateCd):
     story = [
-        "Com'è bello il {{bb:giardino}} in questa stagione .",
-        "Hmmm... ma non lo vedo da nessuna parte.",
+        "Com'è bello il {{bb:giardino}} in questa stagione.\n"
+        "Hmmm... ma non lo vedo da nessuna parte. "
         "Forse è nella {{bb:serra}}.",
-        "\n{{lb:Vai}} nella {{lb:serra}}.\n"
+        "{{lb:Vai}} nella {{lb:serra}}.\n"
     ]
     start_dir = "~/casa-mia/giardino"
     end_dir = "~/casa-mia/giardino/serra"
@@ -132,8 +132,9 @@ class Step6(StepTemplateCd):
 class Step7(StepTemplateCd):
     story = [
         "Il tuo babbo ha lavorato, ci sono un sacco di verdure.",
-        "Hmmmm. No, non è qui. La cosa non quadra.",
-        "C'è un foglietto in terra.  Usa {{yb:cat foglietto}} per "
+        "Hmmmm. No, non è qui. La cosa non quadra. "
+        "C'è un foglietto in terra. "
+        "Usa {{yb:cat foglietto}} per "
         "{{lb:leggere}} che c'è scritto.\n"
     ]
     start_dir = "~/casa-mia/giardino/serra"
@@ -147,7 +148,8 @@ class Step7(StepTemplateCd):
 
 class Step8(StepTemplateCd):
     story = [
-        "Tornare indietro è facilissimo. Scrivi semplicemente {{yb:cd ../}} per tornare indietro.\n"
+        "Tornare indietro è facilissimo. ",
+        "Scrivi semplicemente {{yb:cd ../}} per tornare indietro.\n"
     ]
     start_dir = "~/casa-mia/giardino/serra"
     end_dir = "~/casa-mia/giardino"
@@ -165,9 +167,10 @@ class Step8(StepTemplateCd):
 
 class Step9(StepTemplateCd):
     story = [
-        "Rieccoti in giardino. Usa {{yb:cd ../}} ancora per"
-        " {{lb:tornare}} in casa.",
-        "{{gb:Super consiglio: premi la freccia in sù per rifare lo stesso comando.}}\n"
+        "Rieccoti in giardino. Usa {{yb:cd ../}} ancora per",
+        "{{lb:tornare}} in casa.\n",
+        "{{gb:Super consiglio: "
+        "premi la freccia in su per rifare lo stesso comando.}}\n"
     ]
     start_dir = "~/casa-mia/giardino"
     end_dir = "~/casa-mia"

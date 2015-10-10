@@ -12,7 +12,7 @@ The translation is complete. Now, a refinement work will take place, based on fe
 
 Modified version for controlling the font size both in the Storybook and in the TerminalUi classes.
 
-In [CodeBook.md](https://github.com/iamarf/terminal-quest/blob/master/CodeBook.md) details about the translation and iter mods are reported.
+In [CodeBook.md](https://github.com/iamarf/terminal-quest/blob/master/CodeBook.md) details about the translation and other mods are reported.
 
 
 # How to install it

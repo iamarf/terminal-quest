@@ -226,7 +226,7 @@ class Storybook(Gtk.TextView):
             str: with newline characters inserted.
         '''
 
-        columns = self.width / self.char_width
+        columns = self.width / self.char_width * 13.5 / 20
         total_width = 0
         new_string = ''
 

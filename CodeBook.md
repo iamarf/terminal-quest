@@ -3,7 +3,10 @@
 Branch for trying the change of font size, both in Storybook and the TerminalUi classes. Changes in 
 
 - https://github.com/iamarf/terminal-quest/blob/largefonts/linux_story/gtk3/Storybook.py#L50
+- https://github.com/iamarf/terminal-quest/blob/largefonts/linux_story/gtk3/Storybook.py#L229
 - https://github.com/iamarf/terminal-quest/blob/largefonts/linux_story/gtk3/TerminalUi.py#L26-L28
+
+Font size and related correction factor for the Storybook screen size are hardcoded: must be done properly!
 
 #### Translation
 
