@@ -1,1 +1,1 @@
-cp ../best-shed-maker-in-the-world.sh ./
+cp ../miglior-fabbricatore-di-capanni-del-mondo.sh ./

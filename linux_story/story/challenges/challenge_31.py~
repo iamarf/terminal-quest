@@ -127,7 +127,7 @@ class Step4(StepTemplateNano):
 class Step5(StepTemplateNano):
     story = [
         "Girato abbastanza. Andiamo a vedere se si trova lo "
-        "{{lb:spadaccino mascherato}} nel bosco, e vediamo "
+        "{{lb:spadaccino maascherato}} nel bosco, e vediamo "
         "cosa ci può dire.",
         "\n{{gb:Premi Invio per continuare.}}"
     ]

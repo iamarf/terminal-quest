@@ -477,7 +477,7 @@ fotocopiatrice.sh:
           path: "~/paese/est/negozio-di-capanni/seminterrato"
           permissions: 0755
 
-capanno:
+shed:
     directory: True
     challenges:
         - challenge: 25
